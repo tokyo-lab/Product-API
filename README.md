@@ -1,7 +1,17 @@
 # Product-API
 
-Activate the virtualenv with this command:
+Set up:
 
-```sh
-source bin/activate
-```
+    pip install flask
+
+1 - Create a new virtualenv:
+
+    virtualenv flask
+
+2 - Activate the virtualenv:
+
+    source bin/activate
+
+3 - Run the program:
+
+    python app.py
