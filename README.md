@@ -1,3 +1,13 @@
+# Virtual Environment Setup
+
+## Create and activate the virtual environment.
+
+1- Open terminal and cd into the project folder 'product-API.
+
+    python3.9 -m venv productapi
+
+2 - Activateclear
+
 # Product-API
 
 1- Install fastapi
