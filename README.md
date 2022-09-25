@@ -1,22 +1,13 @@
 # Product-API
 
-Set up:
+1- Install fastapi
 
-    pip install flask
+    pip3 install fastapi "uvicorn[standard]"
 
-1 - Create a new virtualenv:
+2 - Run the program:
 
-    virtualenv flask
-
-2 - Activate the virtualenv:
-
-    source bin/activate
-
-3 - Run the program:
-
-    python app.py
+    uvicorn main:app --reload
 
 #Sources
 
-https://code.visualstudio.com/docs/python/tutorial-flask
-https://towardsdatascience.com/creating-restful-apis-using-flask-and-python-655bad51b24
+https://www.youtube.com/watch?v=GN6ICac3OXY
